@@ -1,0 +1,42 @@
+.bg{
+    margin: 0 auto;
+    height: 100vh;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .btnGrp{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    gap: 4rem;
+  }
+  
+  button {
+    border-radius: 50%;
+    border: 10px solid ;
+    padding: 0.7em 1.3em;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #fafafa;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  #red:hover {
+    color: #9e1b32;
+  }
+  #green:hover {
+    color: #17B169;
+  }
+  
+  #blue:hover {
+    color: #0047AB;
+  }
+  #pink:hover {
+    color: #ff33e0 ;
+  }
+  
+  
